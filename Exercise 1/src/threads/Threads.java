@@ -44,7 +44,7 @@ public class Threads {
             }
         });
 
-        //Start thread 3 and wait 10 sec, then interrupt the thread 3
+        //Start thread 3 and wait 10 sec, then interrupt thread 3
         t3.start();
         Thread.sleep(10000);
         t3.interrupt();
